@@ -9,8 +9,8 @@ const verb = [' listens to ', ' avoids ', ' hates ', ' loves ',
 ' dances while listening to ', ' enjoys a glass of whine and '
 
 ]
-var randomAlbumNumber = Math.floor(Math.random() * 5)
-var randomSuggestionNumber = Math.floor(Math.random() * 5)
-var randomVerbNumber = Math.floor(Math.random() * 5)
+var randomNumber1 = Math.floor(Math.random() * 5)
+var randomNumber2 = Math.floor(Math.random() * 5)
+var randomNumber3 = Math.floor(Math.random() * 5)
 
-console.log(suggestion[randomSuggestionNumber] + verb[randomVerbNumber] + classicAlbums[randomAlbumNumber])
+console.log(suggestion[randomNumber1] + verb[randomNumber2] + classicAlbums[randomNumber3])
